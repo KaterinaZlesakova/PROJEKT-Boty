@@ -70,6 +70,11 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
 .bota {
     position: absolute;
     bottom: 0px;
@@ -87,12 +92,17 @@ h1 {
 ul {
     display: flex;
     text-decoration: none;
-    margin: 30px;
+    margin: 0;
+    margin-bottom: 50px;
     padding: 20px;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 li {
-    flex-basis: 50px;
+    flex-basis: 25px;
+    padding: 10px;
+
 }
 
 .nike {
@@ -122,5 +132,12 @@ li {
     text-transform: uppercase;
     padding: 20px;
     margin: 30px;
+    margin-left: 0;
     border-radius: 5px;
+}
+
+.zvyrazneni {
+    color: #f15f42;
+    border-radius: 50%;
+    border: 1px solid #f15f42;
 }
